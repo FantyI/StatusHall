@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+  --color-main-black: #272727;
+  --color-main-white: #F0F0F0;
+
+  --font-daysOne: "Days One", sans-serif;
+}
+
+/* @font-face {
+  font-family: "Days One";
+  src: url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+} */
+
+* {
+  @apply font-daysOne font-bold
+  /*text-main-white */
+
+}
+
+* {
+  font-family: var(--font-daysOne);
+  font-weight: 900;
+}
+
+.open {
+  transition: all;
+  height: 0;
+}
+
+.counter {
+  @apply select-none px-2 cursor-pointer
+}
+
+.styleDefaultPages {
+  @apply max-w-lg m-auto bg-main-black p-6 min-h-dvh text-main-white min-h-dvh
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p,
+  span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+input{
+  font-weight: 600;
+}
