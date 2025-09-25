@@ -9,10 +9,12 @@ import ListCards from './components/ListCards'
 
 function App() {
 
+  
 
   return (
     <>
       <div className='styleDefaultPages' >
+        <div className='initialBackground' ></div>
         {cardsData.map(listData => (
           <>
             <ListCards listData={listData} />

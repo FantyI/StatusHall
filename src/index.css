@@ -63,3 +63,17 @@
 input{
   font-weight: 600;
 }
+
+/* .initialBackground{
+  width: 100dvw;
+  height: 100dvh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-main-black);
+  animation-name: initialBg;
+  animation-duration: .4s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+} */
